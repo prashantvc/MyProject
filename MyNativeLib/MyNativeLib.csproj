@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>MyNativeLib</Title>
+    <Authors>Prashant C</Authors>
+    <Description>This is a test pack</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="native\libmylibrary.so">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Pack>true</Pack>
+      <PackagePath>native\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
