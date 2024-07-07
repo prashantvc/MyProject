@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "MyConsoleApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DYLD_PRINT_LIBRARIES": "0",
+        "DYLD_LIBRARY_PATH": "/Users/prashantvc/RiderProjects/MyProject/MyNativeLib/native"
+      }
+    }
+  }
+}
